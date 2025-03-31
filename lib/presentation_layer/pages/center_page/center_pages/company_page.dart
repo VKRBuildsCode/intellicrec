@@ -98,7 +98,7 @@ class _CompanyPageState extends State<CompanyPage> {
           Expanded(
             child: PageView(
               controller: _pageController,
-              children: [
+              children: const [
                 Faqs(),
                 Relatedtopicspage()
               ],
